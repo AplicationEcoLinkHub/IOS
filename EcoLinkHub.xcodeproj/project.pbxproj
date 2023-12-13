@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0502CA3D2B16C70900AB3055 /* Initiative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CA3C2B16C70900AB3055 /* Initiative.swift */; };
+		0502CA3F2B16CB3D00AB3055 /* AjouterInitiativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CA3E2B16CB3D00AB3055 /* AjouterInitiativeController.swift */; };
 		0521A14A2B151E9A007CC34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521A1492B151E9A007CC34E /* AppDelegate.swift */; };
 		0521A14C2B151E9A007CC34E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521A14B2B151E9A007CC34E /* SceneDelegate.swift */; };
 		0521A14E2B151E9A007CC34E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521A14D2B151E9A007CC34E /* ViewController.swift */; };
@@ -16,6 +18,15 @@
 		0521A1612B151E9C007CC34E /* EcoLinkHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521A1602B151E9C007CC34E /* EcoLinkHubTests.swift */; };
 		0521A16B2B151E9C007CC34E /* EcoLinkHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521A16A2B151E9C007CC34E /* EcoLinkHubUITests.swift */; };
 		0521A16D2B151E9C007CC34E /* EcoLinkHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521A16C2B151E9C007CC34E /* EcoLinkHubUITestsLaunchTests.swift */; };
+		0521A17E2B156A69007CC34E /* DetailleMarcheController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521A17D2B156A69007CC34E /* DetailleMarcheController.swift */; };
+		0567FCBB2B1D0B0700366034 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0567FCBA2B1D0B0700366034 /* Alamofire */; };
+		056FAC6C2B20C5DA00F06624 /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056FAC6B2B20C5DA00F06624 /* TableViewCellController.swift */; };
+		0598CC592B1663A20069AB54 /* DetailleDechetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598CC582B1663A20069AB54 /* DetailleDechetsController.swift */; };
+		0598CC5D2B1663FC0069AB54 /* DetailleConsommationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598CC5C2B1663FC0069AB54 /* DetailleConsommationController.swift */; };
+		0598CC5F2B16640E0069AB54 /* DetailleEauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598CC5E2B16640E0069AB54 /* DetailleEauController.swift */; };
+		0598CC612B1664210069AB54 /* DetailleEnergieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598CC602B1664210069AB54 /* DetailleEnergieController.swift */; };
+		0598CC632B1664490069AB54 /* DetailleCovoiturageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598CC622B1664490069AB54 /* DetailleCovoiturageController.swift */; };
+		05BD5ACD2B20FA380069778C /* ModifierInitiativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD5ACC2B20FA380069778C /* ModifierInitiativeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0502CA3C2B16C70900AB3055 /* Initiative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initiative.swift; sourceTree = "<group>"; };
+		0502CA3E2B16CB3D00AB3055 /* AjouterInitiativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjouterInitiativeController.swift; sourceTree = "<group>"; };
 		0521A1462B151E9A007CC34E /* EcoLinkHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoLinkHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0521A1492B151E9A007CC34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0521A14B2B151E9A007CC34E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,14 @@
 		0521A1662B151E9C007CC34E /* EcoLinkHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoLinkHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0521A16A2B151E9C007CC34E /* EcoLinkHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoLinkHubUITests.swift; sourceTree = "<group>"; };
 		0521A16C2B151E9C007CC34E /* EcoLinkHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoLinkHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0521A17D2B156A69007CC34E /* DetailleMarcheController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleMarcheController.swift; sourceTree = "<group>"; };
+		056FAC6B2B20C5DA00F06624 /* TableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
+		0598CC582B1663A20069AB54 /* DetailleDechetsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleDechetsController.swift; sourceTree = "<group>"; };
+		0598CC5C2B1663FC0069AB54 /* DetailleConsommationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleConsommationController.swift; sourceTree = "<group>"; };
+		0598CC5E2B16640E0069AB54 /* DetailleEauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleEauController.swift; sourceTree = "<group>"; };
+		0598CC602B1664210069AB54 /* DetailleEnergieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleEnergieController.swift; sourceTree = "<group>"; };
+		0598CC622B1664490069AB54 /* DetailleCovoiturageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleCovoiturageController.swift; sourceTree = "<group>"; };
+		05BD5ACC2B20FA380069778C /* ModifierInitiativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierInitiativeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0567FCBB2B1D0B0700366034 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0502CA3B2B16C6EF00AB3055 /* Modeles */ = {
+			isa = PBXGroup;
+			children = (
+				0502CA3C2B16C70900AB3055 /* Initiative.swift */,
+			);
+			path = Modeles;
+			sourceTree = "<group>";
+		};
 		0521A13D2B151E9A007CC34E = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +129,10 @@
 		0521A1482B151E9A007CC34E /* EcoLinkHub */ = {
 			isa = PBXGroup;
 			children = (
+				0502CA3B2B16C6EF00AB3055 /* Modeles */,
+				0598CC5B2B1663CA0069AB54 /* Controllers */,
 				0521A1492B151E9A007CC34E /* AppDelegate.swift */,
 				0521A14B2B151E9A007CC34E /* SceneDelegate.swift */,
-				0521A14D2B151E9A007CC34E /* ViewController.swift */,
 				0521A14F2B151E9A007CC34E /* Main.storyboard */,
 				0521A1522B151E9C007CC34E /* Assets.xcassets */,
 				0521A1542B151E9C007CC34E /* LaunchScreen.storyboard */,
@@ -127,6 +158,23 @@
 			path = EcoLinkHubUITests;
 			sourceTree = "<group>";
 		};
+		0598CC5B2B1663CA0069AB54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0521A17D2B156A69007CC34E /* DetailleMarcheController.swift */,
+				0598CC582B1663A20069AB54 /* DetailleDechetsController.swift */,
+				0521A14D2B151E9A007CC34E /* ViewController.swift */,
+				0598CC5C2B1663FC0069AB54 /* DetailleConsommationController.swift */,
+				0598CC5E2B16640E0069AB54 /* DetailleEauController.swift */,
+				0598CC602B1664210069AB54 /* DetailleEnergieController.swift */,
+				0598CC622B1664490069AB54 /* DetailleCovoiturageController.swift */,
+				0502CA3E2B16CB3D00AB3055 /* AjouterInitiativeController.swift */,
+				056FAC6B2B20C5DA00F06624 /* TableViewCellController.swift */,
+				05BD5ACC2B20FA380069778C /* ModifierInitiativeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +191,9 @@
 			dependencies = (
 			);
 			name = EcoLinkHub;
+			packageProductDependencies = (
+				0567FCBA2B1D0B0700366034 /* Alamofire */,
+			);
 			productName = EcoLinkHub;
 			productReference = 0521A1462B151E9A007CC34E /* EcoLinkHub.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +266,9 @@
 				Base,
 			);
 			mainGroup = 0521A13D2B151E9A007CC34E;
+			packageReferences = (
+				0567FCB92B1D0B0700366034 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0521A1472B151E9A007CC34E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +312,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0598CC5F2B16640E0069AB54 /* DetailleEauController.swift in Sources */,
+				0598CC612B1664210069AB54 /* DetailleEnergieController.swift in Sources */,
 				0521A14E2B151E9A007CC34E /* ViewController.swift in Sources */,
+				0598CC632B1664490069AB54 /* DetailleCovoiturageController.swift in Sources */,
 				0521A14A2B151E9A007CC34E /* AppDelegate.swift in Sources */,
+				0598CC592B1663A20069AB54 /* DetailleDechetsController.swift in Sources */,
+				0521A17E2B156A69007CC34E /* DetailleMarcheController.swift in Sources */,
+				05BD5ACD2B20FA380069778C /* ModifierInitiativeController.swift in Sources */,
+				056FAC6C2B20C5DA00F06624 /* TableViewCellController.swift in Sources */,
+				0502CA3D2B16C70900AB3055 /* Initiative.swift in Sources */,
+				0598CC5D2B1663FC0069AB54 /* DetailleConsommationController.swift in Sources */,
+				0502CA3F2B16CB3D00AB3055 /* AjouterInitiativeController.swift in Sources */,
 				0521A14C2B151E9A007CC34E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +506,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EcoLinkHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,6 +534,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EcoLinkHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -601,6 +667,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0567FCB92B1D0B0700366034 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0567FCBA2B1D0B0700366034 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0567FCB92B1D0B0700366034 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0521A13E2B151E9A007CC34E /* Project object */;
 }
